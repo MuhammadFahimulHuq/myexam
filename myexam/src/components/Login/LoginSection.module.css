@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+.logo{
+    width: 20%;
+}
+.subtitle{
+    font-weight: 1000;
+    font-size: 30px;
+    justify-content: space-around;
+}
