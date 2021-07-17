@@ -1,0 +1,21 @@
+.container{
+   display: flex;
+   justify-content: center;
+}
+.table{
+    width: 75%;
+    border: 4px solid black;
+    
+  
+    text-align: center;
+
+
+}
+.header{
+    
+    border: 2px solid black;
+}
+.item{
+
+    border: 2px solid black;
+}

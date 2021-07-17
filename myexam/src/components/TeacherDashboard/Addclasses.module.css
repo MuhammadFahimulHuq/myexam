@@ -1,0 +1,24 @@
+.container{
+ 
+    background-color: cornsilk;
+    border-top: 3px black;
+    border-bottom: 3px black;
+
+
+   height: 150px;
+   width: 75%;
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+.classheader{
+    font-weight: 900;
+    font-size: 30px;
+ 
+}
+.form{
+    justify-content: space-around;
+}

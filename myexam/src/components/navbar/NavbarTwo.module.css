@@ -1,0 +1,27 @@
+.Navbar{
+    display: flex;
+    color: blue;
+    list-style-type: none;
+   justify-content: center;
+  
+}
+.button{
+    background: none;
+    border: none;
+    padding: 0px;
+    /*optional*/
+    font-family: arial, sans-serif;
+    /*input has OS specific font-family*/
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .button:hover{
+    color: darkblue;
+  }
+  .username{
+    padding-left: 40%;
+  }
+  .MainTitle{
+    font-size: 25px;
+ }

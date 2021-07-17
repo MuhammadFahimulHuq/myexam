@@ -2,10 +2,10 @@ import React from 'react'
 import classes from './../footers/Footer.module.css'
 function Footer() {
     return (
-        <div>
-            <footer className={classes.footer}>
+        <div className={classes.footer}>
+            <p >
                 fahim@portfolio.com copyright 
-            </footer>
+            </p>
         </div>
     )
 }
