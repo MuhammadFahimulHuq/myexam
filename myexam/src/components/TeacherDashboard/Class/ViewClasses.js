@@ -1,12 +1,9 @@
 import React from 'react'
 import  classes  from './ViewClasses.module.css'
-export const ViewClasses = () => {
-    const data={
-        ClassCode : 'CSE207',
-        ClassName : 'Discrete Mathematics',
-        Section: '2',
-        Enrolled: '25'
-    }
+import {PopupForm} from './../Form/PopupForm'
+
+export const ViewClasses = ({classData}) => {
+
 
     return (
         <div className={classes.container}>
@@ -20,11 +17,11 @@ export const ViewClasses = () => {
         <th className={classes.header}>Delete Class</th>
     </tr>
     <tr>
-        <td className={classes.item}>{data.ClassCode}</td>
-        <td className={classes.item}>{data.ClassName}</td>
-        <td className={classes.item}>{data.Section}</td>
-        <td className={classes.item}>{data.Enrolled}</td>
-        <td className={classes.item}><button>+</button></td>
+        <td className={classes.item}>{classData.ClassCode}</td>
+        <td className={classes.item}>{classData.ClassName}</td>
+        <td className={classes.item}>{classData.Section}</td>
+        <td className={classes.item}>{classData.Enrolled}</td>
+        <td className={classes.item}><PopupForm data={classData.ClassCode}/></td>
         <td className={classes.item}><button>delete</button></td>
     </tr>
   
