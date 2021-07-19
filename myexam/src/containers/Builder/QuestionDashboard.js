@@ -1,13 +1,13 @@
 import React from 'react'
 import { QuestionTypeContent } from '../../components/TeacherDashboard/Question/QuestionTypeContent'
-
+import classes from './QuestionDashboard.module.css'
 
 export const QuestionDashboard = () => {
   
 
     return (
-        <div>
-{/* <p>
+        <div className={classes.container}>
+<p>
   Class:CSE307
 </p>
 <p>
@@ -18,7 +18,7 @@ export const QuestionDashboard = () => {
 </p>
 <p>
   Exam Type: Quiz-1
-</p> */}
+</p>
 <QuestionTypeContent />
         </div>
     )

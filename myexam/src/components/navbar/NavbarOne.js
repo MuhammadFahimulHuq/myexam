@@ -4,13 +4,13 @@ import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 import Login from '../../containers/Builder/Login';
 import { Signup } from '../../containers/Builder/Signup';
-
+import { Link } from 'react-router-dom';
 const NavbarOne = () => {
     return (
         <div className={classes.container}>
      <ul className={classes.Navbar}>
       <li className={classes.MainTitle}>
-          myExam
+         <Link to="/">myExam</Link> 
       </li>
       <li className={classes.login}>
        <Popup trigger={<button className={classes.button}> login</button>} position="bottom center">

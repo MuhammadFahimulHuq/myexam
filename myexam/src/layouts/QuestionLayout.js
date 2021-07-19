@@ -8,7 +8,7 @@ export const QuestionLayout = () => {
         <div>
             <NavbarTwo />
             <QuestionDashboard />
-            <Footer />
+           
         </div>
     )
 }

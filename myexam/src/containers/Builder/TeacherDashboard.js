@@ -31,7 +31,7 @@ export const TeacherDashboard = () => {
             </div>
  
          <Addclasses />
-        {data.classDetails.map((data)=><ViewClasses classData={data}/>)} 
+        {data.classDetails.map((data)=><ViewClasses classData={data} key={data.ClassCode}/>)} 
         </div>
     )
 }

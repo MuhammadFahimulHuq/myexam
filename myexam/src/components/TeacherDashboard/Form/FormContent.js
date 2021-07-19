@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { QuestionContent } from './QuestionContent';
+import classes from './FormContent.module.css'
 export const FormContent = () => {
     
 
@@ -17,9 +17,12 @@ const handleExamTypeChange = event =>{
                 <input type="text" value={ExamType} onChange={handleExamTypeChange}></input>
                 <label>Exam Date:</label>
                 <input type="date" ></input>
-                <label>Exam Duration:</label>
+                <label>Exam Time:</label>
                 <input type="time" />
-               <QuestionContent />
+            
+                <button type="submit">Submit</button>
+             
+           
             </form>
         </div>
     )
